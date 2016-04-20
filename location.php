@@ -1,0 +1,1 @@
+<?php $local_url = 'localhost:8888/kirke_adventure'; ?>

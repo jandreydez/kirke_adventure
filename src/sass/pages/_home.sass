@@ -1,0 +1,82 @@
+.box-enter
+	height: 100vh
+	font-family: $font1
+	text-transform: uppercase	
+	background: lighten($c1, 15%)
+	h1
+		color: $c1
+		font-size: 100px
+	h2
+		font-size: 70px
+		color: $c1
+		display: inline-block
+		.prc
+			width: 50px
+			height: 50px
+			display: inline-block
+			background: $c1
+			border-radius: 50%
+			border: 4px dashed lighten($c1, 15%)
+			margin-top: 0px
+			position: relative
+			top: 3px
+			-webkit-animation: myrotate 6s infinite linear
+			cursor: pointer
+			&::after 
+				content: ""
+				width: 20px
+				height: 20px
+				display: block
+				position: absolute
+				background-color: lighten($c1, 15%)
+				top: calc(50% - 10px)
+				left: calc(50% - 10px)
+				border-radius: 50%
+	form
+		input
+			width: 100%
+			border: none
+			outline: none
+			margin: 10px 0
+			padding: 0 5px
+			font-size: 35px
+			background-color: $c1
+			color: lighten($c1, 15%)
+			&:focus
+				padding: 0
+				color: $c1
+				transition: all 0.3s ease
+				border-bottom: 4px solid $c1
+				background: lighten($c1, 15%)
+			&[type=submit]
+				&:hover
+					///color: darken($cwhite, 50%)
+					background-color: darken($c1, 10%)
+	::-webkit-input-placeholder
+		color: lighten($c1, 15%)
+	a
+		display: inline-block
+		&:hover
+			outline: none
+			text-decoration: none
+		.singup
+			display: table
+			padding: 0px
+			background: #5E8C6A
+			border-radius: 50%
+			font-size: 50px
+			color: lighten($c1, 15%)
+			width: 200px
+			height: 200px
+			margin: 0 auto
+			margin-top: 40px
+			border: 8px dashed
+			transition: all 0.5s ease
+			&:hover
+				background: darken($c1, 10%)
+				transition: all 0.5s ease
+
+			h3
+				font-size: 30px
+				display: table-cell
+				vertical-align: middle

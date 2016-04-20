@@ -1,0 +1,25 @@
+{
+  "name": "kirke_adventure",
+  "description": "Projeto jogo",
+  "main": "index.js",
+  "authors": [
+    "Jandrey Oliveira de Souza"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "animate.css": "^3.5.1",
+    "bootstrap": "^3.3.6",
+    "jquery-ui": "jqueryui#^1.11.4"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
